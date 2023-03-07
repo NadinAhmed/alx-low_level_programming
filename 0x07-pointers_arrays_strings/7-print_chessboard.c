@@ -2,9 +2,8 @@
 #include <stdio.h>
 
 /**
- *  print_chessboard - print chessboard
+ * print_chessboard - print chessboard
  * @a: number on rows
- * Return: 0 anyway
  */
 
 void print_chessboard(char (*a)[8])
@@ -15,8 +14,8 @@ void print_chessboard(char (*a)[8])
 	{
 		for (j = 0; j < 8; j++)
 		{
-			printf("%d", a[i][j]);
+			_putchar(a[i][j]);
 		}
-		printf('\n');
+		_putchar('\n');
 	}
 }
